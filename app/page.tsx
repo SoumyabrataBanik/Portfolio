@@ -8,20 +8,24 @@ import SectionDivider from "@/components/section-divider";
 import Skills from "@/components/skills";
 
 export default function Home() {
-  return (
-    <main className="flex flex-col items-center">
-      <Intro />
-      <SectionDivider />
-      <AboutMe />
-      <SectionDivider />
-      <Projects />
-      <SectionDivider />
-      <Skills />
-      <SectionDivider />
-      <Education />
-      <SectionDivider />
-      <Contact />
-      <Footer />
-    </main>
-  );
+	return (
+		<>
+			<main className="flex flex-col items-center mx-3 sm:mx-0">
+				<Intro />
+				<SectionDivider />
+				<AboutMe />
+				<SectionDivider />
+				<Projects />
+				<SectionDivider />
+				<Skills />
+				<SectionDivider />
+				<Education />
+				<SectionDivider />
+				<Contact />
+			</main>
+			<footer>
+				<Footer />
+			</footer>
+		</>
+	);
 }

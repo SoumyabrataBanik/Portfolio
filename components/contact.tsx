@@ -29,7 +29,7 @@ const Contact = () => {
 			transition={{ duration: 1 }}
 			ref={ref}
 			id="contact"
-			className="mb-10 w-[min(100%, 45rem)] mx-3 sm:mx-0">
+			className="mb-10 w-[min(100%, 45rem)]">
 			<SectionHeading>Contact Me</SectionHeading>
 			<p className="text-center text-slate-700 dark:text-slate-300">
 				Please contact me directly from my email given above or use the

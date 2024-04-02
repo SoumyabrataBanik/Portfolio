@@ -12,7 +12,7 @@ const Projects = () => {
 		<section
 			ref={ref}
 			id="projects"
-			className="flex flex-col items-center justify-center gap-8 scroll-mt-36 mx-3 sm:mx-0">
+			className="flex flex-col items-center justify-center gap-8 scroll-mt-36">
 			<SectionHeading>My Projects</SectionHeading>
 			<>
 				{projectsData.map((project, id) => (
